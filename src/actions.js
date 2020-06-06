@@ -2,7 +2,7 @@ import request from 'superagent'
 
 export const ALL_IMAGES = 'ALL_IMAGES'
 
-const baseUrl = 'https://fast-forest-57654.herokuapp.com'
+const baseUrl = 'https://imageboard-server.herokuapp.com'
 
 function allImages (payload) {
   return {
